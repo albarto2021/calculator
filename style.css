@@ -1,0 +1,63 @@
+.container {
+    max-width: 300px;
+    margin: 8vh auto 0 auto;
+    box-shadow:  0px 0px 33px 8px rgb(197, 208, 214);
+    background-color: rgb(8, 59, 160);
+    border-radius: 5%;    
+}
+
+#display {
+    text-align: right;
+    height: 50px;
+    line-height: 50px;
+    padding: 10px 8px;
+    font-size: 30px;
+    border: 1px solid rgb(211, 188, 188);
+    border-radius: 5%;   
+    color: rgb(9, 23, 118); 
+    font-weight: 600;
+    background-color: rgb(129, 241, 241);
+}
+
+#display1 {
+    text-align: right;
+    height: 4px;
+    padding: 3px;
+}
+
+.buttons {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;  
+}
+
+.button {
+    background-color: #0d0555;
+    border: 1px solid rgb(55, 171, 177);
+    border-radius: 20%;
+    line-height: 80px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    font-weight: 550;
+    color: rgb(249, 249, 246);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#equal {
+    background-color: #bd1818;
+    color: rgb(250, 246, 246);
+    font-size: 40px;
+}
+
+#equal:hover {
+    background-color: #a84242;
+    color: white;
+    transition: 0,5s ease-in-out;
+}
+
+.button:hover {
+    background-color: #20567d;
+    color: white;
+    transition: 0,5s ease-in-out;
+}
